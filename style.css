@@ -1,0 +1,37 @@
+.pokemonName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PictureOfPokemon {
+    align-self: center;
+    justify-self: center;
+}
+
+.Invalid {
+    align-self: center;
+    justify-self: center;
+}
+
+.ability {
+     align-self: center;
+     justify-self: center;
+}
+.abilityText {
+    align-self: center;
+    justify-self: center;
+}
