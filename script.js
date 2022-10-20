@@ -15,6 +15,11 @@ const getPokemonName = () => {
        } else {
         Error.textContent = '';
        }
+       if(pokemon.value === '') {
+        PictureOfPokemon.src = '';
+        abilitiesOfPokemon.textContent = '';
+        abilitiesText.textContent = '';
+       }
        return pokemonNameIStringLowerCase   
 } 
 async function getPokemonAPI() {
